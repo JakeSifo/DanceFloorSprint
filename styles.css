@@ -3,18 +3,18 @@ body, html{
 }
 body{
   margin: 0px;
-  background-color:#444;
+  background-color: #78aa2f;
   font-size: 18px;
 }
 body, a:link, a:visited, a:active{
-  color: lightblue;
+  color: #1c121b;
 }
 .topbar{
   height:32px;
-  background-color: #555;
+  background-color: #d0d2c4;
 }
 .title{
-  background-color: #777;
+  background-color: #ddd7c7;
 }
 .title, .lineUpDancerButton, .addDancerButton{
   padding:5px 12px;
@@ -37,6 +37,7 @@ body, a:link, a:visited, a:active{
   position: absolute;
   width: 10%;
   aspect-ratio: 1 / 1;
+  pointer-events: none;
 }
 
 #pitou{
@@ -47,6 +48,7 @@ body, a:link, a:visited, a:active{
   display: flex;
   align-items: center;
   justify-content: center;
+  pointer-events: none;
 }
 #pitou .head{
   z-index: 4;
@@ -54,6 +56,7 @@ body, a:link, a:visited, a:active{
   width: auto;
   position: absolute;
   margin-bottom: 94%;
+  pointer-events: auto;
 }
 
 #pitou .body{
@@ -61,6 +64,7 @@ body, a:link, a:visited, a:active{
   height: 100%;
   width: auto;
   position: absolute;
+  pointer-events: none;
 }
 
 #kite{
@@ -71,6 +75,7 @@ body, a:link, a:visited, a:active{
   display: flex;
   align-items: center;
   justify-content: center;
+  pointer-events: none;
 }
 #kite .head{
   z-index: 2;
@@ -79,10 +84,12 @@ body, a:link, a:visited, a:active{
   position: absolute;
   margin-bottom: 97%;
   margin-right: 5%;
+  pointer-events: auto;
 }
 #kite .body{
   z-index: 1;
   height: 100%;
   width: auto;
   position: absolute;
+  pointer-events: none;
 }
